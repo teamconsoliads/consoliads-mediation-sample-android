@@ -209,6 +209,8 @@
             <com.consoliads.sdk.bannerads.ConsoliadsSdkBannerView
                 android:id="@+id/consoli_banner_view"
                 android:layout_marginTop="8dp"
+                android:visibility="gone"
+                tools:visibility="visible"
                 android:layout_marginBottom="8dp"
                 android:background="@color/colorPrimary"
                 android:layout_gravity="center_horizontal"
