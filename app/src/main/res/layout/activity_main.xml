@@ -166,6 +166,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
+
+            <Button
+                android:visibility="gone"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:background="#FE642E"
+                android:text="Load Static Interestial"
+                android:id="@+id/btn_load_sint"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:visibility="gone"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:background="#FE642E"
+                android:text="Show Static Interestial"
+                android:id="@+id/btn_show_sint"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
             <Button
                 android:textColor="#FFF"
                 android:textStyle="bold"
@@ -206,16 +229,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.consoliads.sdk.bannerads.ConsoliadsSdkBannerView
-                android:id="@+id/consoli_banner_view"
+            <com.consoliads.mediation.bannerads.CAMediatedBannerView
+                android:id="@+id/consoli_banner_view_second"
                 android:layout_marginTop="8dp"
-                android:visibility="gone"
-                tools:visibility="visible"
                 android:layout_marginBottom="8dp"
-                android:background="@color/colorPrimary"
                 android:layout_gravity="center_horizontal"
-                android:layout_width="320dp"
-                android:layout_height="50dp"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
             <Button
                 android:textColor="#FFF"
@@ -272,11 +292,11 @@
                 android:visibility="visible" />
 
 
-<!--            <com.consoliads.sdk.bannerads.ConsoliadsSdkBannerView-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:id="@+id/consoli_banner_view"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content" />-->
+            <com.consoliads.mediation.bannerads.CAMediatedBannerView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/consoli_banner_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/btn_hide_banner2"
